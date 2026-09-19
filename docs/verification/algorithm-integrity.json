@@ -1,0 +1,22 @@
+{
+  "app/Services/CertaintyFactorService.php": {
+    "same_as_upload": true,
+    "sha256": "0f7d1358d5323a0bef03e0e5a39ba8ed03328f87b172c39140ae57ee48bb734a"
+  },
+  "app/Services/Dass21Service.php": {
+    "same_as_upload": true,
+    "sha256": "28f6572490a3cd29d23db983ee4bb45e71753adffe5b0e0f623ce5f5fd3ff4af"
+  },
+  "database/seeders/RuleSeeder.php": {
+    "same_as_upload": true,
+    "sha256": "84c51442bd4f60018a1004b3f7cf644996eaccaee659770183f3cf7c2c400503"
+  },
+  "database/seeders/SymptomSeeder.php": {
+    "same_as_upload": true,
+    "sha256": "b96ba3d2dbe12a3c6a9d9842e1e8388f9207aadb8631f88d49c93c8f7542b7d3"
+  },
+  "database/seeders/DiseaseSeeder.php": {
+    "same_as_upload": true,
+    "sha256": "de66c6e6ada06e1de7e27ed3c36189c20b90bf2bd7a8b417dfd70c6922f8f01b"
+  }
+}

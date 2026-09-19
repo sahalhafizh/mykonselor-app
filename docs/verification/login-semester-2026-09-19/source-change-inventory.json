@@ -1,0 +1,42 @@
+{
+  "baseline_zip": "mykonselor-penelitian-dan-demo-2026-09-18.zip",
+  "baseline_sha256": "b555c61106923334f67d42a8f16ed055a5fe062306d4ef191d40947b2a38f548",
+  "changed_existing": [
+    "CHANGELOG_EXECUTION.md",
+    "KNOWN_ISSUES.md",
+    "TEST_REPORT.md",
+    "app/Http/Controllers/Auth/RegisteredUserController.php",
+    "app/Models/User.php",
+    "resources/views/auth/login.blade.php",
+    "resources/views/auth/register.blade.php",
+    "tests/Feature/RegistrationValidationTest.php",
+    "tests/Feature/ReleaseMigrationTest.php",
+    "tests/Feature/ReleaseSecurityTest.php",
+    "tests/Feature/ResearchMigrationTest.php",
+    "tests/Feature/ResearchModeTest.php"
+  ],
+  "added": [
+    "database/migrations/2026_09_19_000001_add_registration_semester_to_users_table.php",
+    "tests/Feature/RegistrationSemesterMigrationTest.php",
+    "PANDUAN_UPDATE_LOGIN_SEMESTER.md",
+    "docs/verification/login-semester-2026-09-19/phpunit-final.txt",
+    "docs/verification/login-semester-2026-09-19/view-cache-final.txt",
+    "docs/verification/login-semester-2026-09-19/build-final.txt",
+    "docs/verification/login-semester-2026-09-19/phpunit-final.xml",
+    "docs/verification/login-semester-2026-09-19/integrity.json",
+    "docs/verification/login-semester-2026-09-19/lint-final.json"
+  ],
+  "source_files": [
+    "app/Http/Controllers/Auth/RegisteredUserController.php",
+    "app/Models/User.php",
+    "resources/views/auth/login.blade.php",
+    "resources/views/auth/register.blade.php",
+    "tests/Feature/RegistrationValidationTest.php",
+    "tests/Feature/ReleaseMigrationTest.php",
+    "tests/Feature/ReleaseSecurityTest.php",
+    "tests/Feature/ResearchMigrationTest.php",
+    "tests/Feature/ResearchModeTest.php",
+    "database/migrations/2026_09_19_000001_add_registration_semester_to_users_table.php",
+    "tests/Feature/RegistrationSemesterMigrationTest.php"
+  ]
+}

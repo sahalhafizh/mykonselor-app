@@ -1,0 +1,18 @@
+{
+  "app/Services/CertaintyFactorService.php": true,
+  "app/Services/Dass21Service.php": true,
+  "composer.json": true,
+  "composer.lock": true,
+  "database/seeders/DiseaseSeeder.php": true,
+  "database/seeders/RuleSeeder.php": true,
+  "database/seeders/SymptomSeeder.php": true,
+  "package-lock.json": true,
+  "package.json": true,
+  "public/build/assets/app-ByssUPZ-.js": true,
+  "public/build/assets/app-k6-8iLaI.css": true,
+  "public/build/assets/bootstrap-icons-BeopsB42.woff": true,
+  "public/build/assets/bootstrap-icons-mSm7cUeB.woff2": true,
+  "public/build/manifest.json": true,
+  "resources/css/app.css": true,
+  "resources/js/app.js": true
+}

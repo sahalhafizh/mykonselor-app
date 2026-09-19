@@ -1,0 +1,12 @@
+PHPUnit 11.5.56 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.3.6
+Configuration: /workspace/scratch/e1c0066366cf/finalisasi-2026-09-17/mykonselor-app/phpunit.xml
+
+...............................................................  63 / 144 ( 43%)
+............................................................... 126 / 144 ( 87%)
+..................                                              144 / 144 (100%)
+
+Time: 00:04.628, Memory: 75.00 MB
+
+OK (144 tests, 781 assertions)

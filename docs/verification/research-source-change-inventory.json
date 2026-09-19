@@ -1,0 +1,260 @@
+{
+  "baseline": "final-hosting release 2026-09-18",
+  "files": [
+    {
+      "path": "app/Services/AssessmentService.php",
+      "change": "modified",
+      "sha256": "41cc0b65095c662aa3b2f745f64da30aa403bcf3c538f00ba09560e08490dd9a"
+    },
+    {
+      "path": "app/Services/ResearchReportService.php",
+      "change": "added",
+      "sha256": "f535fcaa46e3137c88d0fee1b4df606b290c5dcb3657ac68cb98aebdb7862f86"
+    },
+    {
+      "path": "app/Support/ResearchStudy.php",
+      "change": "added",
+      "sha256": "ca2501a0c695f4d9e8cf01bbaa84ff857270bb34bcb22a4b6625105223c0634a"
+    },
+    {
+      "path": "app/Exports/ResearchReportWorkbook.php",
+      "change": "added",
+      "sha256": "1171b18608d959ca0900ddf430e2ee3a02e8a4d68a44c28996cfd41b9524519a"
+    },
+    {
+      "path": "app/Exports/ReportSummaryExport.php",
+      "change": "added",
+      "sha256": "512b6f0b76f379fb170acc43cf1c35f66cb433af3d859b68fdf652e9618d59b2"
+    },
+    {
+      "path": "app/Exports/AssessmentReportExport.php",
+      "change": "modified",
+      "sha256": "44e2bc9f879f5f58f7b4cadba640cc7aaf2e508fb7817036f63184ed2452c429"
+    },
+    {
+      "path": "app/Livewire/SymptomWizard.php",
+      "change": "modified",
+      "sha256": "49b6fd5ddc551f25576c9af74b019bef66644af7bd1d53e103a9f6025427835b"
+    },
+    {
+      "path": "app/Models/User.php",
+      "change": "modified",
+      "sha256": "d7465367de2a66c38c7f24afc0eeb00d5cc8d39b876e4b519f11083585189ba0"
+    },
+    {
+      "path": "app/Models/ResearchParticipation.php",
+      "change": "added",
+      "sha256": "fd560011c22055006e43d20705aabc09a034c5855c0e2f3174dc87a2400f065e"
+    },
+    {
+      "path": "app/Models/Assessment.php",
+      "change": "modified",
+      "sha256": "9136aba722972d723a0aa7ef28fb32fb675ddbe69d961c1efe87840f17ad9e5f"
+    },
+    {
+      "path": "app/Http/Middleware/ProtectAssessmentAdminAccess.php",
+      "change": "added",
+      "sha256": "2efbb59605394629cadae83e3c376b0aebbddb56a10cb7d836387dfddb260035"
+    },
+    {
+      "path": "app/Http/Middleware/EnsureStudentVerified.php",
+      "change": "modified",
+      "sha256": "790b296d6a0cc9c4b5da91108e285c215d2b62548784911145fc54e96eba8576"
+    },
+    {
+      "path": "app/Http/Controllers/DashboardController.php",
+      "change": "modified",
+      "sha256": "776837da8424fccf81ebff465f0c2b76a621200d57802d6c9cb49375ba0c4924"
+    },
+    {
+      "path": "app/Http/Controllers/ResearchParticipationController.php",
+      "change": "added",
+      "sha256": "9d176c4ff1fe4d5218ccc975ed25ce81e73fe1a7c34f1122bab55200e6212a47"
+    },
+    {
+      "path": "app/Http/Controllers/AssessmentController.php",
+      "change": "modified",
+      "sha256": "7069f915f38c77c17a5e5c2ab2c3bdec26b484d4c7448e585f54a963a76352ab"
+    },
+    {
+      "path": "app/Http/Controllers/ProfileController.php",
+      "change": "modified",
+      "sha256": "e6f903f528c0a2ef24c0533b4165946fd81b96f40e9e8c52c9e4ea1e2a85aec2"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/DashboardController.php",
+      "change": "modified",
+      "sha256": "c2311ba6b99b839d5b83d7502ce346f90befd1cd120d1a9f7e2d51688e37e4da"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/ReportController.php",
+      "change": "modified",
+      "sha256": "cfe5d450f7d92659b5dc8c39898d2df840ff99d61e003fbf3fa5dcd3623becc9"
+    },
+    {
+      "path": "app/Http/Controllers/Admin/UserManagementController.php",
+      "change": "modified",
+      "sha256": "28426fbb7f45848ffd51977cd462c6cd70247e212b99742fe902914520a68ffe"
+    },
+    {
+      "path": "app/Http/Controllers/Auth/RegisteredUserController.php",
+      "change": "modified",
+      "sha256": "52ba1a34b4b03205ff5546a64446607d33dec903a067cd04cfd1cfc885fc5eff"
+    },
+    {
+      "path": "app/Console/Commands/HostingCheck.php",
+      "change": "modified",
+      "sha256": "5ae0eb921da8b11b6e0e8392201015327b7b01ba2440a30303a43ba5665d3f82"
+    },
+    {
+      "path": "config/privacy.php",
+      "change": "modified",
+      "sha256": "b7c482baa65a2610a6f4c5000a6a61e5b306f944b0f4e850c3a89cfc2a74dfd6"
+    },
+    {
+      "path": "config/research.php",
+      "change": "added",
+      "sha256": "d543f96f1732f01a140b337217d1d6bbf19633be010abb6a81aed8f72cf92766"
+    },
+    {
+      "path": "database/migrations/2026_09_18_000001_add_research_participation_and_context.php",
+      "change": "added",
+      "sha256": "d87f856c3bdfaa582853a89e59cf5437ac93b4ec6936b546034efa99ba16a935"
+    },
+    {
+      "path": "database/seeders/AdminUserSeeder.php",
+      "change": "modified",
+      "sha256": "3b2f6bfa697afba79fe6163208d9a40a337d6c01be416dbd626ccf579bbd13dc"
+    },
+    {
+      "path": "resources/views/dashboard.blade.php",
+      "change": "modified",
+      "sha256": "b8803d88b8b44941f04491b197bb5901ac1c6fd33ca611aa9ae01ce40af3a544"
+    },
+    {
+      "path": "resources/views/welcome.blade.php",
+      "change": "modified",
+      "sha256": "1433fcd5c1e13b46339f80efed425caa1c630f1b16f8d6704c2e1bbd257a92b3"
+    },
+    {
+      "path": "resources/views/assessment/history.blade.php",
+      "change": "modified",
+      "sha256": "68a371ba21c9736288f856d62d9d5493bb1b53603fb8ee2487dd36479ff92c72"
+    },
+    {
+      "path": "resources/views/assessment/referral.blade.php",
+      "change": "modified",
+      "sha256": "43e81387674186752089be7821e31b6b56bdeb4bff1bfb87a877206de559526f"
+    },
+    {
+      "path": "resources/views/profile/show.blade.php",
+      "change": "modified",
+      "sha256": "b28ab50ca9b27dbd5941c388876f813119916f511b141962451de0da97f3f103"
+    },
+    {
+      "path": "resources/views/livewire/symptom-wizard.blade.php",
+      "change": "modified",
+      "sha256": "fc0f9596d02bb2d69fc714df172a9928040f12331707b6647c76605a7706bea3"
+    },
+    {
+      "path": "resources/views/components/research-summary.blade.php",
+      "change": "added",
+      "sha256": "41ff534d46bbb58990fcf05f345bd0574392fe2b8a3109f58a1ce5e505e358c1"
+    },
+    {
+      "path": "resources/views/components/data-mode-notice.blade.php",
+      "change": "added",
+      "sha256": "2589fd8b36a7e1a843545fcc0752c83907771384f28a4623689e964511f47369"
+    },
+    {
+      "path": "resources/views/components/research-consent.blade.php",
+      "change": "added",
+      "sha256": "abee835b106fc5d32806c7bbe2863cad55dfca1e44128c82b50d52706b9c971a"
+    },
+    {
+      "path": "resources/views/auth/registration-unavailable.blade.php",
+      "change": "modified",
+      "sha256": "daa3a3a8743c3b9b4c59b2cd5a81d0ad95ccff0e0144a327b1bd67e688a73d17"
+    },
+    {
+      "path": "resources/views/auth/register.blade.php",
+      "change": "modified",
+      "sha256": "3d095855a5cf9d5e9294fcd728750b7a86958b7314097ed859edc3831e1405a8"
+    },
+    {
+      "path": "resources/views/admin/dashboard.blade.php",
+      "change": "modified",
+      "sha256": "67959167687cc550568afd557ab934056da335a6d30f3e5cd7a8b32b6b6f96e0"
+    },
+    {
+      "path": "resources/views/research/participation.blade.php",
+      "change": "added",
+      "sha256": "3cc37cdd0e06c0721be94707b3fec72631e8bea34b7994b8079a99b79db10a6a"
+    },
+    {
+      "path": "resources/views/research/receipt.blade.php",
+      "change": "added",
+      "sha256": "252b566d3abba94cf3821d83bc0a4a120ab2a99451c0b9104d12e15d72f034be"
+    },
+    {
+      "path": "resources/views/legal/privacy.blade.php",
+      "change": "modified",
+      "sha256": "1332b1118274cf6e3e29fff6744070978f96f98626d7a2ff97b3971bdcdcaaaa"
+    },
+    {
+      "path": "resources/views/components/layouts/admin.blade.php",
+      "change": "modified",
+      "sha256": "f65ebc9d3e8112a548d9ec7fc5c1e4c7d8b8663f1512aad0e1bfa8a6c2fbf712"
+    },
+    {
+      "path": "resources/views/components/layouts/app.blade.php",
+      "change": "modified",
+      "sha256": "cef002149c5550506f2b3157ad08015801e008fab5f66067e0006de80da5a9f5"
+    },
+    {
+      "path": "resources/views/admin/reports/index.blade.php",
+      "change": "modified",
+      "sha256": "c28d8e61fb097293e2bf861200a9068338bdfd953e8d94fbbde76b28945fc9ac"
+    },
+    {
+      "path": "resources/views/admin/reports/pdf.blade.php",
+      "change": "modified",
+      "sha256": "fd5e10c32471f5b6eb54f722b0cacd3bdbb97916b64102af041031ecf43d0237"
+    },
+    {
+      "path": "resources/views/admin/users/index.blade.php",
+      "change": "modified",
+      "sha256": "a962a0393e94e8a750aa34cfd92fd9ecdc975f94fa85c52ec8be680403b5e487"
+    },
+    {
+      "path": "resources/views/admin/users/edit.blade.php",
+      "change": "modified",
+      "sha256": "880a15db6c6d5d6a10d8938334205b96aa2b480ba33eb880f83ae85e0bf28d68"
+    },
+    {
+      "path": "routes/web.php",
+      "change": "modified",
+      "sha256": "9ad69ffb62b7797d9929fc59950e7d163e587907c5b64d99c3e7df493e0c0421"
+    },
+    {
+      "path": "tests/Feature/ResearchMigrationTest.php",
+      "change": "added",
+      "sha256": "8eff0adcdd867534d353b51a386fef01e7ab426bd78a3966a3ddd69ef874d481"
+    },
+    {
+      "path": "tests/Feature/RuleAuditAndExportTest.php",
+      "change": "modified",
+      "sha256": "5863eac831450196ad8bd5b77a11cad8acd28f88d546bd110fd680ae4017d8f0"
+    },
+    {
+      "path": "tests/Feature/ReleaseMigrationTest.php",
+      "change": "modified",
+      "sha256": "2e0d966e0c0df9707bc62887dc7872688b7a1930754b2f6f8beb1696974740c5"
+    },
+    {
+      "path": "tests/Feature/ResearchModeTest.php",
+      "change": "added",
+      "sha256": "afd32e861131e211aa50d39eea035748841f50a8affbd25eb54b39bcd348d490"
+    }
+  ]
+}

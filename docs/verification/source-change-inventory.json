@@ -1,0 +1,337 @@
+[
+  {
+    "file": "app/Providers/AppServiceProvider.php",
+    "status": "modified",
+    "sha256": "d4662baf786fe3db58fde1adc09b8983d3b0ece8244c959b3ba0065261c79ca2"
+  },
+  {
+    "file": "app/Livewire/SymptomWizard.php",
+    "status": "modified",
+    "sha256": "4892098ed1f369d0c17c9f120bbd1c94d8454c2bf2932375435e7cd20f6acef1"
+  },
+  {
+    "file": "app/Support/PrivacyPolicy.php",
+    "status": "added",
+    "sha256": "17198490bffe9cf1c17442ff496f7c1aff3e09da3097c65b1b8b67dbe62e897e"
+  },
+  {
+    "file": "app/Models/RuleAuditEvent.php",
+    "status": "added",
+    "sha256": "0ddfb09485bfbf48a74adc4584344f59cd4421654c058c3aee63dfad92ab4323"
+  },
+  {
+    "file": "app/Models/User.php",
+    "status": "modified",
+    "sha256": "e8e5f9562625c059d7a5c63ea7542dd6049d65eef4199825b575ab8b7f7b4ae3"
+  },
+  {
+    "file": "app/Models/AssessmentResult.php",
+    "status": "modified",
+    "sha256": "050ab4bdd71e5b235085352e005fa5eab9752c2e02a13b1c5cb17540166a1173"
+  },
+  {
+    "file": "app/Models/RuleSetVersion.php",
+    "status": "added",
+    "sha256": "e8e8e27a77a8beb72b7346d9f1c9beb17da15d42d53101c653a4dda2fddfcd85"
+  },
+  {
+    "file": "app/Services/AssessmentService.php",
+    "status": "modified",
+    "sha256": "be83b51a0cf385398a51505f117d1b566d6e81cb4ffde9d3e9aeabb1b6940ab1"
+  },
+  {
+    "file": "app/Exports/AssessmentReportExport.php",
+    "status": "modified",
+    "sha256": "ed2547319b146308ec1e320b099279f1717cad2f4299bf9cebe76921f4029fb7"
+  },
+  {
+    "file": "app/Console/Commands/ResetAdminPassword.php",
+    "status": "added",
+    "sha256": "9f37c2cb5614398d11d77f0ffc6118a7a5bf3a2f1dcb0a9307aace14b620183b"
+  },
+  {
+    "file": "app/Console/Commands/HostingCheck.php",
+    "status": "modified",
+    "sha256": "52c0e265c4d967e7b99bf2bc66ecb7a54f9ec4dd445f0c5ffcbdfa971f9e9f87"
+  },
+  {
+    "file": "app/Console/Commands/ResetAdminMfa.php",
+    "status": "added",
+    "sha256": "f539cb146be594f711f565c6746e37d1d61d112f88f8bc69e3f96cef2c5ca06f"
+  },
+  {
+    "file": "app/Console/Commands/PurgeStudentData.php",
+    "status": "added",
+    "sha256": "373517d10db89c017b175ac3f5dd939ab81b098a19e4039fecc1abcfadb0ae37"
+  },
+  {
+    "file": "app/Console/Commands/CreateAdmin.php",
+    "status": "modified",
+    "sha256": "ddf061f011b90381d2a84bcf551e935de3fba6b1cea1319a81a8466d3d613a91"
+  },
+  {
+    "file": "app/Console/Commands/DisableDemoAccounts.php",
+    "status": "added",
+    "sha256": "83edf8becf252f04fccd16979aa4022aa168b5546e9627b0ac302b66791e66e3"
+  },
+  {
+    "file": "app/Http/Middleware/RequirePasswordChange.php",
+    "status": "added",
+    "sha256": "804fa580ed677f3d12d389921c406de5e9b2f9a1eb4451cc0a91375efb4f2de8"
+  },
+  {
+    "file": "app/Http/Middleware/RequirePublishedPrivacyPolicy.php",
+    "status": "added",
+    "sha256": "02f069d03d67047b0421805ae392a7ecb147ddcd161609d01b8f94b42a6de63f"
+  },
+  {
+    "file": "app/Http/Middleware/EnsureAdminSecondFactor.php",
+    "status": "added",
+    "sha256": "98fd2f92df6bc87424f60ff12c7aaae61ac18e818f7a63c5be2bb40d5348d126"
+  },
+  {
+    "file": "app/Http/Middleware/EnsureStudentVerified.php",
+    "status": "added",
+    "sha256": "1e6727b6fde163973f31f145e8f8025a7d47e800008c1946d03e66bfc12e6404"
+  },
+  {
+    "file": "app/Http/Middleware/TrustConfiguredProxies.php",
+    "status": "added",
+    "sha256": "f09169bab7d62afc03b94a266fa8130914acef4236af1a6c985f3d9f078d5aa5"
+  },
+  {
+    "file": "app/Http/Controllers/Admin/DashboardController.php",
+    "status": "modified",
+    "sha256": "a8b64db9a29819cf5d346c460a6e1280d7432c0ab5ba2f215953de205b176678"
+  },
+  {
+    "file": "app/Http/Controllers/Admin/RuleManagementController.php",
+    "status": "modified",
+    "sha256": "f432fe428a6fdf584adaa733f0ef3a1cf4681c67f53edebbb7d2925b98179993"
+  },
+  {
+    "file": "app/Http/Controllers/Admin/UserManagementController.php",
+    "status": "modified",
+    "sha256": "8bec87e313095736edf9b836e94b816e37f79595f07ae0e586b40176609d62fe"
+  },
+  {
+    "file": "app/Http/Controllers/Admin/ArticleController.php",
+    "status": "modified",
+    "sha256": "4609b5618e8d13d1d2bc7230d7baf7f926668f2765c217be2db97b1833639657"
+  },
+  {
+    "file": "app/Http/Controllers/Admin/ReportController.php",
+    "status": "modified",
+    "sha256": "7aec881d5e8e3a5ec6b26df1c3bca4f07d7b052d32e322e0e4cd8aa5a0fed9b0"
+  },
+  {
+    "file": "app/Http/Controllers/Auth/AdminSecurityController.php",
+    "status": "added",
+    "sha256": "2a53194e396df284ee4d993b29ab6e2908a6ad52a5b9b3cac93ee8500182616f"
+  },
+  {
+    "file": "app/Http/Controllers/Auth/RegisteredUserController.php",
+    "status": "modified",
+    "sha256": "5b8dfd40f2fdbb8a0082a9ef688e9929226d7c9c44ae9ef345cac72a63ac85fb"
+  },
+  {
+    "file": "app/Http/Controllers/Auth/AdminSessionController.php",
+    "status": "added",
+    "sha256": "e209c552592e282e669462bd0e4e3088a286be47d93cba4ee979f90d087de41b"
+  },
+  {
+    "file": "app/Http/Controllers/Auth/RequiredPasswordController.php",
+    "status": "added",
+    "sha256": "2ee0131a61dda8d0bc2138401be712070cfefad2cc5193b243143d0dc2417af2"
+  },
+  {
+    "file": "app/Http/Requests/Auth/LoginRequest.php",
+    "status": "modified",
+    "sha256": "e861a7aa25fa6e5373820fbad7caba1cc4ad7f79c2d028532679f3e3c3678df5"
+  },
+  {
+    "file": "bootstrap/app.php",
+    "status": "modified",
+    "sha256": "4bfab623e8769a677ef75a087dea00f17543f60c449601f7b1d283915b4b880a"
+  },
+  {
+    "file": "config/privacy.php",
+    "status": "added",
+    "sha256": "a3af8063190a38827523d1622ae331e34026bd8791c9287963c6f5b2eb6713c9"
+  },
+  {
+    "file": "config/security.php",
+    "status": "added",
+    "sha256": "eb22e230f250da94d7aeb5718a19083a7db12775c8d607d0ba6a632d50a79ee5"
+  },
+  {
+    "file": "database/seeders/AdminUserSeeder.php",
+    "status": "modified",
+    "sha256": "3c9c1d5e9bfe35779e610c2f94a148b5e28cfd5aa6d6ea58e0d3211ad02b83fd"
+  },
+  {
+    "file": "database/migrations/2026_09_17_000001_add_release_security_and_audit.php",
+    "status": "added",
+    "sha256": "049e560d91c986060574f652b1bcda4f61bf760c5963baccb9ca056630824615"
+  },
+  {
+    "file": "database/factories/UserFactory.php",
+    "status": "modified",
+    "sha256": "74a71451030a3889519f0e2829911587835a70b747658fafbcf716cb7ebf5a62"
+  },
+  {
+    "file": "resources/views/auth/admin-login.blade.php",
+    "status": "added",
+    "sha256": "f4af7d0e0085cad334510796b3edeb89a9e062ef12b8707829af3ae189c79a14"
+  },
+  {
+    "file": "resources/views/auth/required-password.blade.php",
+    "status": "added",
+    "sha256": "a86e125fd22d2f5ba44bffe8ea0a4219fe3d246f587d481f10c338be2d5c31e0"
+  },
+  {
+    "file": "resources/views/auth/admin-challenge.blade.php",
+    "status": "added",
+    "sha256": "ee62ee92c6cf9bc74d659997e0a901f79c68543900c709cfbd217dd94da585b7"
+  },
+  {
+    "file": "resources/views/auth/admin-security.blade.php",
+    "status": "added",
+    "sha256": "dd93af6ddf3216fe41e02bab4127bd1c963518ffbb80fd0dc66df655c38dc8e3"
+  },
+  {
+    "file": "resources/views/auth/registration-unavailable.blade.php",
+    "status": "added",
+    "sha256": "30617ef8d85d24becbfb4d7c64ce34365fa70afd1db35a6a5fe6aeea742c4a96"
+  },
+  {
+    "file": "resources/views/auth/login.blade.php",
+    "status": "modified",
+    "sha256": "ef52aa798084680ebce968e0c4b4906de87f3a460f1d174fcdcabf6422b0e93c"
+  },
+  {
+    "file": "resources/views/auth/verification-notice.blade.php",
+    "status": "added",
+    "sha256": "adbcffb56fcbf1ead9683ed874c746b5a6c02f3057b205c116ad7390d389deeb"
+  },
+  {
+    "file": "resources/views/legal/privacy.blade.php",
+    "status": "modified",
+    "sha256": "74acc55b706b21ab9f738d2929100847853806ef994b0095e8a5ae908bae205f"
+  },
+  {
+    "file": "resources/views/admin/dashboard.blade.php",
+    "status": "modified",
+    "sha256": "313eae6b1a221197743bf604c05b785a5f5cf74e8e26beb9ecd10d9ea7fc02df"
+  },
+  {
+    "file": "resources/views/admin/referrals/show.blade.php",
+    "status": "modified",
+    "sha256": "0038f900fe8879ce67a8bad2f8209d47e0ffcb0164fb1059b8405dff2c93f3a4"
+  },
+  {
+    "file": "resources/views/admin/referrals/index.blade.php",
+    "status": "modified",
+    "sha256": "6e9e5bd1774195c18fe8286958c2b4cadfd726d83ef5ce25811a4ed2a361da26"
+  },
+  {
+    "file": "resources/views/admin/users/edit.blade.php",
+    "status": "modified",
+    "sha256": "8a9b5e3d286696febc57e89215328c9cbf3079a32148641a644e0c68521e42b5"
+  },
+  {
+    "file": "resources/views/admin/users/index.blade.php",
+    "status": "modified",
+    "sha256": "f24c641f7d74e18966e289260b3af05acb673f2e1ffc56f2b7b4b421058613a7"
+  },
+  {
+    "file": "resources/views/admin/reports/pdf.blade.php",
+    "status": "modified",
+    "sha256": "c2451b4cb77f17ff5d4b260522b354def929a79afee18a2fed7e5c3e147a6909"
+  },
+  {
+    "file": "resources/views/admin/reports/index.blade.php",
+    "status": "modified",
+    "sha256": "a6b0f7c2dd12e3b1ac65679846bba05088cd47e3592e1f49d8528103fbe6af74"
+  },
+  {
+    "file": "resources/views/admin/articles/form.blade.php",
+    "status": "modified",
+    "sha256": "662a91723cc6ad23972315ad041790c927c141e9a4eb8b7544360486459e9d14"
+  },
+  {
+    "file": "resources/views/admin/rules/edit.blade.php",
+    "status": "modified",
+    "sha256": "753c68593336443055760e6ea972c7a12f2040b5c837636b1119ddff3e4e2eef"
+  },
+  {
+    "file": "resources/views/admin/rules/audit-log.blade.php",
+    "status": "modified",
+    "sha256": "6ef9fcf119f1649a5da27bc59fb51993fcec4616180fa4d21b10337bb5e3209d"
+  },
+  {
+    "file": "resources/views/components/layouts/admin.blade.php",
+    "status": "modified",
+    "sha256": "5c22d916b8c0805af888149e1e5d64b4b1f3d89ea4e4ab1b809e68b72c986df1"
+  },
+  {
+    "file": "routes/web.php",
+    "status": "modified",
+    "sha256": "8ffcd839251ec5dd2ef553bec021aff25e5db275e4b3239006edd180a0ef8350"
+  },
+  {
+    "file": "tests/TestCase.php",
+    "status": "modified",
+    "sha256": "4d07a5c4d636901149565a9831a962ec8ccf7ec6707a24c490be48205fe3e6ba"
+  },
+  {
+    "file": "tests/Feature/ProfileManagementTest.php",
+    "status": "modified",
+    "sha256": "f276d38a80d26f97e357e81f6864154e200bf6f1a44b43e722396f8ea3afe17e"
+  },
+  {
+    "file": "tests/Feature/ReleaseSecurityTest.php",
+    "status": "added",
+    "sha256": "f00fc6f3bced1de5bbf1d01a5999585cc4464e0ebb4f9ff44525e84038c761d4"
+  },
+  {
+    "file": "tests/Feature/ReleaseOperationsTest.php",
+    "status": "added",
+    "sha256": "97d2094787607eb7dd09b8aa85f477ed78eea9e0fa2252356ea8c49a06d470e7"
+  },
+  {
+    "file": "tests/Feature/GuestAccessTest.php",
+    "status": "modified",
+    "sha256": "a8d69302e0802e7642a42d63bd055452d9548b8fbe10ea72fb25aa6ab76c9a98"
+  },
+  {
+    "file": "tests/Feature/RuleAuditAndExportTest.php",
+    "status": "added",
+    "sha256": "d36d040209788694aed3f5709032f108d821a05bd32f02013a4d0d95df1f4cbb"
+  },
+  {
+    "file": "tests/Feature/HostingSecurityTest.php",
+    "status": "modified",
+    "sha256": "b8f25b2fa3eaedcacd151578f33294585ebe6855b2dea28844ca9b672355fe35"
+  },
+  {
+    "file": "tests/Feature/DevelopmentAccountsTest.php",
+    "status": "modified",
+    "sha256": "5f4bdca1de18eda6a17505d094ba0aed4fbb7743d8d854979863b643509c670a"
+  },
+  {
+    "file": "tests/Feature/ReleaseMigrationTest.php",
+    "status": "added",
+    "sha256": "b8f7b9f0f43a0993e314878bf940bc296da940c31bc8771a006ecd35b0925802"
+  },
+  {
+    "file": "tests/Feature/ExampleTest.php",
+    "status": "modified",
+    "sha256": "c910a08ece2aa5eeb6c11b8cbb8e856dd5b9b1c24e50cbebc98c7b82891bef1a"
+  },
+  {
+    "file": "tests/Unit/CertaintyFactorServiceTest.php",
+    "status": "modified",
+    "sha256": "9c84c8b9f7678f320e5c7ebe4fbe1415c0a2dc0dfa16233319b431e6e0c492eb"
+  }
+]
